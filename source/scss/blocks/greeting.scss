@@ -1,0 +1,33 @@
+.greeting {
+  height: 100vh;
+  min-height: 600px;
+  background-image: url(../img/bg-greeting-11.jpg);
+  background-color: var(--background-color-a80);
+  background-blend-mode: color;
+  background-position: top 35% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.greeting__inner {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.greeting__title {
+  margin: 0;
+  text-align: right;
+  font-weight: 400;
+}
+
+.greeting__name {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.greeting__accent {
+  font-weight: 700;
+  color: var(--accent);
+}

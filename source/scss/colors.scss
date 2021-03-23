@@ -1,0 +1,19 @@
+:root {
+  --accent: #76af04;
+}
+
+html.dark {
+  --background-color: #1e1e1e;
+  --background-color-a80: rgba(30, 30, 30, 0.8);
+  --text-color: #d9d9d9;
+  --color-logo-primary: #343434;
+  --color-logo-secondary: #ebebeb;
+}
+
+html.light {
+  --background-color: #d2d2d2;
+  --background-color-a80: rgb(210, 210, 210, 0.9);
+  --text-color: #333333;
+  --color-logo-secondary: #343434;
+  --color-logo-primary: #ebebeb;
+}

@@ -1,0 +1,35 @@
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  flex: 0 0 150px;
+
+  svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.header__right {
+  max-width: 740px;
+  display: flex;
+  align-items: center;
+}
+
+.header__nav {
+  margin-right: 45px;
+}

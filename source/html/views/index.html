@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html class="dark" lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="description" content="Junior Frontend Developer" />
+    <title>Junior Frontend Developer</title>
+    <link rel="preload" href="./fonts/Cuprum-Bold.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="./fonts/Cuprum-Regular.woff2" as="font" crossorigin="anonymous">
+    <link rel="stylesheet" href="/vendors/normalize-css/normalize.min.css" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <script>
+      if(!window.HTMLPictureElement) {
+        document.createElement("picture");
+      };
+    </script>
+  </head>
+  <body>
+    <!--header.html-->
+    <%= _.template(require('../includes/common/header.html').default)({}) %>
+    <main>
+      <!--index/greeting.html-->
+      <%= _.template(require('../includes/index/greeting.html').default)({}) %>
+      <!--index/structure.html-->
+      <%= _.template(require('../includes/index/fish.html').default)({}) %>
+    </main>
+    <!--footer.html-->
+    <%= _.template(require('../includes/common/footer.html').default)({}) %>
+  </body>
+</html>
